@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaquery.css" />
+    <script src="assets/js/fontawesomeKit.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/favico.ico" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <li class="logo"><img src="assets/img/logo.png" /></li>
+      <li class="lang" onclick="mylang()"><i class="fas fa-globe"></i>English <i class="fas fa-caret-down"></i>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">English</a>
+        <a href="#">Hindi</a>
+      </div></li>
+      <li class="buttons">Sign In</li>
+    </div>
+    <div class="main">
+      <div class="main-area">
+        <h1>Unlimited movies,TV <br />shows, and more.</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+
+        <h4>
+          Ready to watch? Enter your email to create or access your account
+        </h4>
+        <div class="search">
+          <input type="text" class="box" placeholder="Email" />
+          <span class="try">
+            Try 30 days free <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="text">
+        <h1>Enjoy on your TV.</h1>
+        <p>
+          Watchx on Smart TVs, Playstation, Xbox, <br />
+          Chromecast, Apple TV, Blu-ray players, and<br />
+          more.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="assets/img/1stPic.png"
+        />
+      </div>
+    </div>
+    <div class="container1">
+      <div class="image">
+        <img src="assets/img/2ndPic.jpg"/>
+      </div>
+      <div class="text">
+        <h1>Download your shows <br/> to watch on the go.</h1>
+        <p>hisndaskmf adoifhoad fjadfj ooasdfjskdf sadfoisa fd.</p>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="text">
+        <h1>Watch everywhere.</h1>
+        <p>
+          Stream unlimited movies and TV shows on <br />your phone, tablet,
+          laptop, and TV without paying more.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="assets/img/3rdPic.png"
+        />
+      </div>
+    </div>
+    <div class="question">
+      <h1>Frequently Asked Questions</h1>
+      <div class="quest">
+        <div class="textbox">What is Netflix?</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="quest">
+        <div class="textbox">How much does Netflix cost?</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="quest">
+        <div class="textbox">Where can I watch?</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="quest">
+        <div class="textbox">How do I cancel?</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="quest">
+        <div class="textbox">What can I watch on Netflix??</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="quest">
+        <div class="textbox">What is Netflix?</div>
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="search1">
+        <input type="text" class="box1" placeholder="Email" />
+        <span class="try1">
+          Get Started <i class="fas fa-chevron-right"></i>
+        </span>
+      </div>
+      <h4>Ready to watch? Enter your email to create or access your account</h4>
+    </div>
+    <div class="footer">
+      <div class="footercon">
+        <div class="flex1">
+          <h5>Questions? Call Me 24*7</h5>
+          <h5></h5>
+        </div>
+
+        <ul class="list1">
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="end">
+      <h2>Netflix India</h2>
+      <h2></h2>
+    </div>
+
+    <script>
+      /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+      function mylang() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".lang")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
