@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaquery.css" />
+    <script src="assets/js/fontawesomeKit.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/favico.ico" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+  </head>
+  <body>
+    <div class="navbar" style="min-height: 50px;">
+      <li class="logo"><a href="index.html"><img src="assets/img/logo.png" height="110px" style="width: 110px;"/></a></li>
+      <a onclick="alert('Bss kr Bhai');"><li class="buttons">Sign Out</li></a>
+    </div>
+    <div class="home">
+
+        
+
+<div class="wrapper">
+
+  <section id="section1">
+    <a href="#section2" class="arrow__btn left-arrow">‹</a>
+    <div class="item">
+      <a href="#">
+        <img
+          src="assets/img/1img.jpg"
+          alt="Describe Image">
+      </a>
+    </div>
+    <div class="item">
+
+      <a href="#">
+      <img
+        src="assets/img/2img.jpg"
+        alt="Describe Image">
+      </a>
+    </div>
+    <div class="item">
+      
+      <a href="#">
+      <img
+        src="assets/img/3img.jpg"
+        alt="Describe Image">
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+      <img
+        src="assets/img/4img.jpg"
+        alt="Describe Image">  
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+      <img
+        src="assets/img/10img.jpg"
+        alt="Describe Image">
+        </a>
+    </div>
+    <a href="#section2" class="arrow__btn right-arrow">›</a>
+  </section>
+
+  <section id="section2">
+    <a href="#section1" class="arrow__btn left-arrow">‹</a>
+    <div class="item">
+      <img
+        src="assets/img/5img.jpg"
+        alt="Describe Image">
+    </div>
+    <div class="item">
+      <img
+        src="assets/img/6img.jpg"
+        alt="Describe Image">
+    </div>
+    <div class="item">
+      <img
+        src="assets/img/7img.jpg"
+        alt="Describe Image">
+    </div>
+    <div class="item">
+      <img
+        src="assets/img/8img.jpg"
+        alt="Describe Image">
+    </div>
+    <div class="item">
+      <img
+        src="assets/img/9img.jpg"
+        alt="Describe Image">
+    </div>
+    <a href="#section1" class="arrow__btn right-arrow">›</a>
+  </section>
+
+</div>
+  
+  
+        
+
+</div>
+
+
+    </div>
+        <div class="footer" style="background-color: rgba(0, 0, 0, 0.637);">
+      <div class="footercon">
+        <div class="flex1">
+          <h5>Questions? Call Me 24*7</h5>
+          <h5></h5>
+        </div>
+
+        <ul class="list1">
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello world</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+        <ul class="list1">
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello world</a></li>
+          <li><a href="">Hello World</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="end">
+      <h2>Netflix India</h2>
+      <h2></h2>
+    </div>
+
+    <script>
+      /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+      function mylang() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".lang")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
