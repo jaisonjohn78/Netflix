@@ -477,6 +477,7 @@ font-size:16px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow-x: hidden;
   }
   .container1 {
     display: flex;
