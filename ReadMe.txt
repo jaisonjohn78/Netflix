@@ -1,3 +1,5 @@
+Not Responsive 😅
+
 
 *Demo / View*:
  :   https://jaisonjohn78.github.io/Netflix/
