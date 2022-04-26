@@ -1,6 +1,6 @@
-Not Much Responsive 😅
+My first Repo Not Much Responsive 😅
 
-
+<pre>
 *Demo / View*:
  :   https://jaisonjohn78.github.io/Netflix/
 
@@ -48,3 +48,4 @@ Made with Love by Jaison John !
 
 
 }
+</pre>
